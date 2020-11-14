@@ -8,7 +8,8 @@
         "../sass/_normalize.scss",
         "../sass/_fonts.sass",
         "../sass/_mixin.sass",
-        "../sass/blocks/_header.sass"
+        "../sass/blocks/_header.sass",
+        "../sass/blocks/_hero.sass"
     ],
     "names": [],
     "file": "style.css"
