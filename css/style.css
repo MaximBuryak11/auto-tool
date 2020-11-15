@@ -15,6 +15,21 @@ body {
   margin: auto;
 }
 
+.button {
+  margin-top: 68px;
+  width: 220px;
+  height: 56px;
+  padding: 0 6px;
+  margin-bottom: 48px;
+  box-shadow: 5px 10px 20px rgba(53, 110, 173, 0.2);
+  border-radius: 10px;
+  border: none;
+  color: #ffffff;
+  font-style: normal;
+  cursor: pointer;
+  outline: none;
+}
+
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 /* Document
    ========================================================================== */
@@ -491,6 +506,7 @@ template {
   letter-spacing: 0.04em;
   background-color: inherit;
   cursor: pointer;
+  outline: none;
 }
 
 .service {
@@ -611,7 +627,7 @@ template {
 
 .client-wrapper {
   height: 680px;
-  max-width: 1136px;
+  max-width: 1366px;
   margin: auto;
   background: #5A98D0;
   border-radius: 200px 0px 0px 0px;
@@ -676,5 +692,185 @@ template {
 
 .logo-item:nth-child(-n+4) {
   border-bottom: 1px solid #FFFFFF;
+}
+
+.footer {
+  background: #5A98D0;
+  margin: 0;
+}
+
+.footer__left-block {
+  background: #316099;
+  position: absolute;
+  left: 0;
+  height: 1039px;
+  width: 28.5%;
+}
+
+.footer__line {
+  width: 655px;
+  position: absolute;
+  margin-top: 405px;
+  border-bottom: 1px solid #FFFFFF;
+}
+
+.footer-wrapper {
+  z-index: 10;
+  height: 1039px;
+  max-width: 1206px;
+  margin: auto;
+  background: #316099;
+  border-radius: 0px 200px 0px 0px;
+  padding: 0 0 125px;
+}
+
+.footer-talk {
+  border-bottom: 1px solid #FFFFFF;
+  padding-top: 96px;
+  padding-bottom: 96px;
+  border-bottom: 1px solid #FFFFFF;
+  margin-right: 197px;
+}
+
+.footer-talk__container {
+  width: 842px;
+  margin-left: 169px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-talk-info {
+  width: 460px;
+  height: 213px;
+}
+
+.footer-talk__text {
+  width: 460px;
+  height: 80px;
+  color: #FFFFFF;
+  opacity: 0.6;
+}
+
+.footer-talk__title {
+  width: 317px;
+  height: 92px;
+  font-size: 36px;
+  line-height: 46px;
+  letter-spacing: 0.05em;
+  color: #FFFFFF;
+  font-weight: bold;
+  margin-bottom: 32px;
+  opacity: 0.99;
+}
+
+.footer-talk__button-link {
+  background-color: #5A98D0;
+}
+
+.footer-logo {
+  margin-bottom: 33px;
+}
+
+.footer-logo__name {
+  font-size: 28px;
+  line-height: 46px;
+  letter-spacing: 0.02em;
+  color: #FFFFFF;
+  opacity: 0.99;
+}
+
+.footer-logo__link {
+  text-decoration: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 188px;
+  opacity: 0.99;
+}
+
+.footer-logo__image {
+  opacity: 0.99;
+}
+
+.footer-contacts {
+  width: 600px;
+}
+
+.footer-about-us {
+  width: 240px;
+  margin-bottom: 32px;
+}
+
+.footer-follow-us {
+  width: 220px;
+  margin-bottom: 32px;
+}
+
+.footer-menu {
+  width: 842px;
+  margin-left: 169px;
+  margin-top: 97px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 64px;
+}
+
+.footer-menu__items {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  width: 300px;
+  height: 148px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.footer-menu__item {
+  display: flex;
+  color: #ffffff;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.footer-menu__contact-text {
+  width: 264px;
+}
+
+.footer-menu__text {
+  color: #ffffff;
+  text-decoration: none;
+  opacity: 0.99;
+}
+
+.footer-menu__phone {
+  width: 264px;
+  text-decoration: none;
+}
+
+.footer-menu__email {
+  width: 264px;
+  text-decoration: none;
+}
+
+.footer-menu__letter {
+  font-weight: bold;
+  margin-right: 16px;
+  opacity: 0.99;
+}
+
+.footer-menu__title {
+  font-size: 20px;
+  line-height: 30px;
+  color: #ffffff;
+  font-weight: bold;
+  margin-bottom: 31px;
+}
+
+.footer-copyright {
+  width: 842px;
+  margin-left: 169px;
+  color: #FFFFFF;
+  opacity: 0.4;
 }
 /*# sourceMappingURL=style.css.map */
