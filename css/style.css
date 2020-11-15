@@ -595,6 +595,20 @@ template {
   margin-top: 200px;
 }
 
+.client {
+  display: relative;
+}
+
+.client__right-block {
+  background: #5A98D0;
+  z-index: 100;
+  position: absolute;
+  right: 0;
+  height: 680px;
+  width: 50%;
+  z-index: -1;
+}
+
 .client-wrapper {
   height: 680px;
   max-width: 1136px;
@@ -643,12 +657,17 @@ template {
   line-height: 46px;
   letter-spacing: 0.02em;
   color: #F2F2F2;
-  text-transform: uppercase;
   font-weight: bold;
 }
 
 .logo-item:not(:last-child) {
   border-right: 1px solid #FFFFFF;
+  text-transform: uppercase;
+}
+
+.logo-item:last-child {
+  text-decoration: none;
+  background: rgba(31, 63, 104, 0.2);
 }
 
 .logo-item:nth-child(4) {
