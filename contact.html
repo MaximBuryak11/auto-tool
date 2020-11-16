@@ -38,6 +38,81 @@
         </div>
         <!-- ./newsletter-info -->
     </section>
+    <section class="feedback">
+      <div class="container">
+        <div class="feedback-wrapper">
+          <div class="feedback-contacts">
+            <img src="" alt="" class="feedback-contacts__image">
+            <div class="feedback-address">
+              <div class="feedback__title">ADDRESS</div>
+              <div class="feedback__text feedback-address__text">Id convallis placerat sit sed duis id amet volutpat quam a, pharetra.</div>
+              <!-- /.feedback-address__text -->
+            </div>
+            <!-- /.feedback-contacts__address -->
+            <div class="feedback-phone">
+              <div class="feedback__title">PHONE</div>
+              <!-- /.feedback-phone__tittle -->
+              <ul class="feedback-phone__phones">
+                <li class="feedback-phone_phone">
+                  <img src="img/phone.svg" alt="Icon: phone" class="feedback__icon">
+                  <div class="feedback__text">+62-812-7313-4321</div>
+                </li>
+                <li class="feedback-phone_phone">
+                  <img src="img/phone.svg" alt="Icon: phone" class="feedback__icon">
+                  <div class="feedback__text">+62-817-000-1234</div>
+                </li>
+              </ul>
+            </div>
+            <!-- /.feedback-phone -->
+            <div class="feedback-online">
+              <div class="feedback__title"></div>
+              <ul class="feedback-online__services">
+                <li class="feedback-online__service">
+                  <img src="img/language.svg" alt="Icon: language" class="feedback__icon">
+                  <div class="feedback__text">www.afrianska.com</div>
+                </li>
+                <li class="feedback-online__service">
+                  <img src="img/email.svg" alt="Icon: email" class="feedback__icon">
+                  <div class="feedback__text">hello.afrian@gmail.com</div>
+                </li>
+              </ul>
+              <!-- /.feedback-online__title -->
+            </div>
+            <!-- /.feedback-online -->
+
+          </div>
+          <!-- /.feedback-contacts -->
+          <div class="modal" id="feedback-modal">
+            <div class="modal-dialog">
+              <h3 class="modal-title">SEND US MESSAGE</h3>
+              <form action="send.php" method="POST" class="form modal__form">
+                <div class="modal__input-group">
+                  <div class="modal__input-title">Full Name</div>
+                  <input type="text" class="input modal__input" placeholder="Your Name" name="name" required
+                    minlength="2" />
+                </div>
+                <div class="modal__input-group">
+                  <div class="modal__input-title">Email</div>
+                  <input type="email" class="input modal__input" placeholder="Your Email" name="email" required />
+                </div>
+                <div class="modal__input-group"></div>
+                  <div class="modal__input-title">Message</div>
+                  <textarea class="message modal__message" placeholder="Message" name="message"></textarea>
+                </div>
+                <button class="button modal__button" type="submit" value="message">
+                  Send
+                </button>
+              </form>
+              <!-- /.modal-title -->
+            </div>
+            <!-- /.modal-dialog -->
+          </div>
+          <!-- /.modal -->
+        </div>
+        <!-- /.feedback-wrapper -->
+      </div>
+      <!-- /.container -->
+    </section>
     <section class="hero">
       <div class="hero-wrapper">
         <div class="hero-container">
