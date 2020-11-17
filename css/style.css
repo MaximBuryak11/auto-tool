@@ -10,6 +10,15 @@ body {
   color: #1F3F68;
 }
 
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  list-style-type: none;
+}
+
 .container {
   max-width: 940px;
   margin: auto;
@@ -28,6 +37,10 @@ body {
   font-style: normal;
   cursor: pointer;
   outline: none;
+}
+
+.pointer {
+  cursor: pointer;
 }
 
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
@@ -416,6 +429,7 @@ template {
   border: none;
   background-color: #fff;
   cursor: pointer;
+  outline: none;
 }
 
 .menu-button__line {
@@ -597,6 +611,7 @@ template {
   margin-bottom: 48px;
   display: flex;
   align-items: center;
+  cursor: pointer;
 }
 
 .service-info__learn {
@@ -605,6 +620,11 @@ template {
   letter-spacing: 0.05em;
   color: #5A98D0;
   margin-right: 24px;
+  font-weight: bold;
+}
+
+.service-info__learn:hover {
+  color: #316099;
 }
 
 .footer {
@@ -695,8 +715,11 @@ template {
 }
 
 .footer {
-  background: #5A98D0;
   margin: 0;
+}
+
+.footer-background {
+  background: #5A98D0;
 }
 
 .footer__left-block {
@@ -829,7 +852,6 @@ template {
 .footer-menu__item {
   display: flex;
   color: #ffffff;
-  cursor: pointer;
   text-decoration: none;
 }
 
@@ -846,6 +868,7 @@ template {
 .footer-menu__phone {
   width: 264px;
   text-decoration: none;
+  cursor: pointer;
 }
 
 .footer-menu__email {
@@ -912,5 +935,127 @@ template {
   text-align: center;
   letter-spacing: 0.04em;
   color: rgba(255, 255, 255, 0.6);
+}
+
+.feedback-wrapper {
+  margin-top: 57px;
+  margin-bottom: 96px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.feedback-info {
+  height: 431px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.feedback__title {
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0.04em;
+  color: #1F3F68;
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 24px;
+  opacity: 0.8;
+}
+
+.feedback-address__text {
+  max-width: 299px;
+}
+
+.feedback__item {
+  display: flex;
+}
+
+.feedback__icon {
+  margin-right: 16px;
+}
+
+.feedback__contacts {
+  height: 68px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.feedback-contacts {
+  width: 312px;
+}
+
+.feedback-contacts__image {
+  margin-bottom: 71px;
+  margin-left: 12px;
+}
+
+.modal {
+  height: 800px;
+  width: 540px;
+  padding: 56px;
+}
+
+.modal-title {
+  margin-bottom: 48px;
+}
+
+.modal__input {
+  border: 1px solid #356EAD;
+  box-sizing: border-box;
+  border-radius: 10px;
+  width: 428px;
+  height: 72px;
+  line-height: 30px;
+  letter-spacing: 0.04em;
+  color: #5A98D0;
+  opacity: 0.6;
+  padding: 21px 42px 21px;
+}
+
+.modal__input-group {
+  height: 110px;
+}
+
+.modal__input-title {
+  line-height: 30px;
+  letter-spacing: 0.04em;
+  color: #1F3F68;
+  opacity: 0.8;
+  margin-bottom: 8px;
+}
+
+.modal__message {
+  width: 428px;
+  height: 144px;
+  background: #FFFFFF;
+  border-radius: 10px;
+  color: #5A98D0;
+  opacity: 0.6;
+  padding-top: 21px;
+  padding-left: 42px;
+  line-height: 30px;
+  letter-spacing: 0.04em;
+}
+
+.modal__button {
+  width: 428px;
+  height: 72px;
+  background: #5A98D0;
+  filter: drop-shadow(5px 10px 20px rgba(16, 112, 177, 0.2));
+}
+
+.input-group {
+  height: 382px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-bottom: 72px;
+}
+
+.map {
+  width: 940px;
+  height: 480px;
+  margin-bottom: 96px;
 }
 /*# sourceMappingURL=style.css.map */
