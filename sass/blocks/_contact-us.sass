@@ -15,6 +15,9 @@
     display: flex
     flex-direction: column
     justify-content: center
+    &__thanks
+      height: 185px
+      align-items: center
   &__title
     font-size: 44px
     line-height: 74px
@@ -29,6 +32,10 @@
     text-align: center
     letter-spacing: 0.04em
     color: rgba(255, 255, 255, 0.6)
+    &-thanks
+      margin: 0
+  &__thanks
+    margin-bottom: 50px
 .feedback
   &-wrapper
     margin-top: 57px
@@ -80,7 +87,7 @@
     height: 72px
     line-height: 30px
     letter-spacing: 0.04em
-    color: #5A98D0
+    color: #356EAD
     opacity: 0.6
     padding: 21px 42px 21px
     &-group
@@ -96,7 +103,8 @@
     height: 144px
     background: #FFFFFF
     border-radius: 10px
-    color: #5A98D0
+    border: 1px solid #356EAD
+    color: #356EAD
     opacity: 0.6
     padding-top: 21px
     padding-left: 42px
@@ -107,6 +115,8 @@
     height: 72px
     background: #5A98D0
     filter: drop-shadow(5px 10px 20px rgba(16, 112, 177, 0.2))
+    margin-top: 68px
+    margin-bottom: 48px
 .input-group
   height: 382px
   display: flex
@@ -120,3 +130,8 @@
   &-iframe
     width: 940px
     height: 480px
+.button
+  &__thanks
+    height: 53px
+    margin-top: 15px
+    background-color: #316099
