@@ -631,6 +631,12 @@ template {
   color: #316099;
 }
 
+.service-info__icon {
+  width: 24px;
+  height: 24px;
+  fill: #5A98D0;
+}
+
 .footer {
   margin-top: 200px;
 }
@@ -1000,6 +1006,9 @@ template {
 
 .feedback__icon {
   margin-right: 16px;
+  width: 24px;
+  height: 25px;
+  fill: #1F3F68;
 }
 
 .feedback__contacts {
