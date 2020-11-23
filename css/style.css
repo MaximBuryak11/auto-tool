@@ -1119,6 +1119,10 @@ template {
   display: none;
 }
 
+.modal-form {
+  display: block;
+}
+
 .modal__overlay {
   position: fixed;
   left: 0;

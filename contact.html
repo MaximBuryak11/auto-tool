@@ -93,7 +93,7 @@
             <!-- /.feedback-info -->
           </div>
           <!-- /.feedback-contacts -->
-          <div class="modal " id="feedback-modal">
+          <div class="modal-form " id="feedback-modal">
             <div class="modal__dialog">
               <h3 class="modal__title">SEND US MESSAGE</h3>
               <form action="send.php" method="POST" class="form modal__form">
@@ -135,7 +135,7 @@
         </div>
       </div>
     </section>
-    <footer class="footer">
+    <footer class="footer footer-background">
       <div class="footer__left-block">
         <div class="footer__line"></div>
       </div>
@@ -153,11 +153,11 @@
                 </div>
                 <!-- /.footer-talk__info -->
                 <div class="footer-talk__button">
-                    <form action="contact.html" target="_blank">
+                    <!--<form target="_blank"></form>-->
                       <button class="button footer-talk__button-link">
                         Let’s Talk
                       </button>
-                    </form>
+                    <!--</form>-->
                 </div>
                 <!-- /.button footer-talk__button -->
                 </div>
@@ -224,7 +224,7 @@
                     <a href="#" class="footer-menu__text">What We Do</a>
                   </li>
                   <li class="footer-menu__item">
-                    <a href="#" class="footer-menu__text">Project</a>
+                    <a href="contact.html" class="footer-menu__text">Contact Us</a>
                   </li>
                   <li class="footer-menu__item">
                     <a href="#" class="footer-menu__text">How It Work With Us</a>
@@ -239,5 +239,44 @@
         <!-- /.footer-wrapper -->
       </div>
     </footer>
+    <div class="modal" id="feedback-modal">
+      <div class="modal__overlay"></div>
+      <div class="modal__dialog modal__window">
+        <a href="#" class="modal__close">
+          <svg class="feedback__icon">
+                <use xlink:href="img/sprite.svg#close" class="modal__close"></use>
+          </svg>
+        </a>
+        <h3 class="modal__title">SEND US MESSAGE</h3>
+        <form action="send.php" method="POST" class="form modal__form">
+          <div class="input-group">
+            <div class="modal__input-group">
+              <div class="modal__input-title">Full Name</div>
+              <input type="text" class="input modal__input" id="mail" placeholder="Your Name" name="name" pattern="^[a-zA-Z]+$" required
+                minlength="2"  />
+                <div class="errors" style="height: 20px; color: red"></div>
+            </div>
+            <div class="modal__input-group">
+              <div class="modal__input-title">Email</div>
+              <input type="email" class="input modal__input email" placeholder="Your Email" name="email" required />
+              <div class="errors" style="height: 20px; color: red"></div>
+            </div>
+            <div class="modal__input-group">
+              <div class="modal__input-title">Message</div>
+              <textarea class="message modal__message" placeholder="Message" name="message" required
+                minlength="10"></textarea>
+              <div class="errors" style="height: 20px; color: red"></div>
+            </div>
+          </div>
+          <!-- /.modal__input-group -->
+          <button class="button modal__button send__button" type="submit" value="message">
+            Send
+          </button>
+        </form>
+        <!-- /.modal-title -->
+      </div>
+      <!-- /.modal-dialog -->
+    </div>
+    <script src="js/script.js"></script>
   </body>
 </html>
