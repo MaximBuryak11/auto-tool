@@ -89,7 +89,7 @@ window.addEventListener('DOMContentLoaded', () => {
     const validateElem = (elem) =>{
         if(elem.name === "name"){
             if (!regExpName.test(elem.value) && elem.value !== "" ){
-                elem.nextElementSibling.textContent = "Введите корректное имя пользователя!";
+                elem.nextElementSibling.textContent = "Input correct username";
                 isValidate = false
             }
             else {
@@ -100,7 +100,7 @@ window.addEventListener('DOMContentLoaded', () => {
         }
         if (elem.name === "email"){
             if (!regExpEmail.test(elem.value) && elem.value !== "" ){
-                elem.nextElementSibling.textContent = "Введите корректный email!";
+                elem.nextElementSibling.textContent = "Input correct email!";
                 isValidate = false
             }
             else {
@@ -110,7 +110,7 @@ window.addEventListener('DOMContentLoaded', () => {
         }
         if (elem.name === "message"){
             if (!regExpMessage.test(elem.value) && elem.value !== "" ){
-                elem.nextElementSibling.textContent = "Введите корректное message";
+                elem.nextElementSibling.textContent = "Input correct message";
                 isValidate = false
             }
             else {

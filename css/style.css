@@ -1038,7 +1038,7 @@ template {
 }
 
 .modal__title {
-  margin-bottom: 48px;
+  margin-bottom: 10px;
 }
 
 .modal__input {
@@ -1167,6 +1167,11 @@ template {
   margin-top: 3px;
   display: none;
   text-align: right;
+}
+
+.errors {
+  height: 20px;
+  color: red;
 }
 
 /*form input textarea
@@ -2056,6 +2061,12 @@ template {
     padding: 10px;
     height: 567px;
   }
+  .modal__title {
+    margin-bottom: 10px;
+  }
+  .modal__window {
+    height: 520px;
+  }
   .location .container {
     width: 280px;
   }
@@ -2065,6 +2076,9 @@ template {
   .location .container .map-iframe {
     width: 280px;
     height: 210px;
+  }
+  .errors {
+    font-size: 10px;
   }
 }
 
