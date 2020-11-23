@@ -77,10 +77,15 @@
       margin-bottom: 71px
       margin-left: 12px
 .modal
-  height: 800px
-  width: 540px
-  padding: 56px
-  &-title
+  &__dialog
+    height: 800px
+    width: 540px
+    padding: 56px
+    display: flex
+    flex-direction: column
+    box-shadow: 0 14px 28px rgba(90, 152, 208, 0.1), 0 10px 10px rgba(90, 152, 208, 0.1)
+    border-radius: 10px
+  &__title
     margin-bottom: 48px
   &__input
     border: 1px solid #356EAD
@@ -93,6 +98,7 @@
     color: #356EAD
     opacity: 0.6
     padding: 21px 42px 21px
+    z-index: 102
     &-group
       height: 110px
     &-title

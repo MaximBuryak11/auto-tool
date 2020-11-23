@@ -91,8 +91,9 @@
       width: 800px
       margin: 50px auto
   .modal
-    width: 445px
-    height: 745px
+    &__dialog
+      width: 445px
+      height: 745px
     &-form
       width: 330px
     &__input
@@ -105,7 +106,7 @@
       width: 333px
       margin-bottom: 0
       margin-top: 33px
-    &-title
+    &__title
       margin-top: 0
   .input
     &-group
@@ -256,6 +257,9 @@
     .feedback
       .container
         width: 800px
+    .modal
+      &-dialog
+        padding: 25px 56px
   @media(max-width: 870px)
     .header
       &-container
@@ -329,9 +333,10 @@
       &-card
         padding: 36px
     .modal
-      width: 322px
-      height: 618px
-      &-title
+      &__dialog
+        width: 322px
+        height: 618px
+      &__title
         width: 250px
       &__input
         padding: 11px 22px
@@ -415,7 +420,8 @@
         align-items: center
         width: 100%
     .modal
-      margin-top: 40px
+      &__dialog
+        margin-top: 40px
     .location
       .container
         width: 521px
@@ -727,9 +733,10 @@
         width: 283px
 
     .modal
-      width: 278px
-      padding: 10px
-      height: 567px
+      &__dialog
+        width: 278px
+        padding: 10px
+        height: 567px
     .location
       .container
         width: 280px

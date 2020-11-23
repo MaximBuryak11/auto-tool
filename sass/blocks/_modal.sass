@@ -1,0 +1,67 @@
+.modal
+  display: none
+  &__overlay
+    position: fixed
+    left: 0
+    right: 0
+    top: 0
+    bottom: 0
+    background-color: rgba(31, 63, 104, 0.39)
+    z-index: 2
+  &__window
+    position: fixed
+    top: 50%
+    left: 50%
+    transform: translate(-50%,-50%)
+    //z-index: 101
+    box-shadow: 0 14px 28px rgba(90, 152, 208,0.1), 0 10px 10px rgba(90, 152, 208,0.1)
+    background-color: #fff
+    z-index: 110
+    display: flex
+    justify-content: center
+    align-items: center
+  &__input, &__message
+    background-color: white
+    opacity: 1
+  &__close
+    position: absolute
+    right: 13px
+    top: 24px
+    text-decoration: none
+    cursor: pointer
+
+.form__error
+  color: red
+  text-align: left
+  font-size: 13px
+  display: block
+  margin-top: 3px
+  display: none
+  text-align: right
+
+/*form input textarea
+ outline: none
+ display: block
+ width: 100%
+ border-radius: 2px
+ border: 1px solid #ccc
+ padding: 10px
+ box-sizing: border-box
+
+  input:valid:not(:placeholder-shown)
+    border-color: green
+
+/*input:invalid:not(:placeholder-shown)
+ border-color: red
+
+/*input:invalid:not(:placeholder-shown) + .form__error
+ display: block
+
+  textarea:valid:not(:placeholder-shown)
+    border-color: green
+
+/*textarea:invalid:not(:placeholder-shown)
+ border-color: red
+
+/*textarea:invalid:not(:placeholder-shown) + .form__error
+ display: block
